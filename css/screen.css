@@ -39,7 +39,6 @@ html {
   font-size: 100%;
   line-height: 1.5;
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-  color: #171b1c;
   scroll-behavior: smooth;
   /* anti aliasing */
   -webkit-font-smoothing: antialiased;
@@ -51,95 +50,13 @@ html {
 */
 
 ::selection {
-  background: #00b2ff;
+  background: hotpink;
   color: white;
-}
-
-/*
-    Elements: typography
-    ---
-    Default markup for typographic elements
-*/
-
-h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-p,
-ol,
-ul,
-dl,
-table,
-address,
-figure {
-  margin-bottom: 1.5rem;
-}
-
-ul,
-ol {
-  margin-left: 1.5rem;
-}
-
-li ul,
-li ol {
-  margin-bottom: 0;
-}
-
-a {
-  color: #008fcc;
-  transition: all 0.1s ease-in-out;
-}
-
-a:visited {
-  color: #008fcc;
-}
-
-a:hover {
-  color: #00b2ff;
-}
-
-a:active {
-  color: #006b99;
 }
 
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/
-/*
-    Objects: Row
-    ---
-    Creates a horizontal row with padding
-*/
-.o-row {
-  padding: 1.5rem 1.5rem 0;
-  display: flow-root;
-}
 
 /*
     Objects: Container
@@ -166,20 +83,3 @@ a:active {
 /*---------------------------------------/*
  # UTILITIES
 /*---------------------------------------*/
-/*
-    Utilities: Max widths
-    ---
-    max-width utility classes
-*/
-
-.u-max-width-s {
-  max-width: 37.5rem;
-}
-
-.u-max-width-m {
-  max-width: 60rem;
-}
-
-.u-max-width-l {
-  max-width: 87.5rem;
-}
