@@ -1,2 +1,2 @@
-# HTML5 boilerplate
-This is my HTML5 boilerplate. I use it to build fast, robust, and adaptable web apps or sites.
+# Login Form Start Files
+These are the start files for the Login Form assignment in the Interaction Design course at MCT.
